@@ -8,3 +8,4 @@ testing
 # perubahan ke 6
 >>>>>>> e58dd8a0f90383f9b7ee63cf69970b5a0da027e1
 # Perubahan ke 7
+# perubahan ke 7
