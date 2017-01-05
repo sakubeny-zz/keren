@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "make sure csf working"
+/usr/sbin/csf -r
+/usr/bin/freshclam >/dev/null 2>&1
+/usr/bin/clamscan -ir /home/*/public_html --move=/home/malware > /home/malware/auto_scan.log >/dev/null 2>&1

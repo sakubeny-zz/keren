@@ -1,0 +1,1 @@
+/usr/sbin/exim -bp | grep "<>" | awk {'print $3'} | /usr/bin/xargs /usr/sbin/exim -Mrm
